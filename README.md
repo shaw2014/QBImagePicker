@@ -163,6 +163,12 @@ The code below shows the default value.
     imagePickerController.numberOfColumnsInLandscape = 7;
 
 
+#### reverse selection
+
+Use 'selectedPhotos' to set selected assets
+
+    imagePickerController.selectedPhotos = _selectedArray;
+
 
 ## License
 
