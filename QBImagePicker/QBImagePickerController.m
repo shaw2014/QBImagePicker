@@ -75,4 +75,15 @@
     self.albumsNavigationController = navigationController;
 }
 
+//2015.06.05   shaw  modify
+-(void)setSelectedPhotos:(NSArray *)selectedPhotos
+{
+    if(selectedPhotos)
+    {
+        _selectedPhotos = selectedPhotos;
+        
+        [_selectedAssets addObjectsFromArray:_selectedPhotos];
+    }
+}
+
 @end
